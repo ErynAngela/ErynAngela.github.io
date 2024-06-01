@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Particles p5.js Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <button class="open-btn" onclick="openNav()">☰</button>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">🗙</a>
+      <a href="#" onclick="texts()">Show Text</a>
+      <a href="#" onclick="refresh()">Refresh</a>
+      <a href="#" onclick="songs()" id="PauseResume">Play Music</a>
+    </div>
+
+  <script>
+    function openNav() {
+        document.getElementById("mySidebar").style.left = "0";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.left = "-250px";
+    }
+  </script>
+
+  </body>
+</html>
