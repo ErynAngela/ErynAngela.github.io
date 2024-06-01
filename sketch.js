@@ -10,7 +10,7 @@ let alpha = 255;
 let canvasImg;
 
 function preload(){
-  song = loadSound('song.mp3');
+  song = loadSound('https://raw.githubusercontent.com/ErynAngela/ErynAngela.github.io/main/song.mp3');
 }
 
 function setup() {
