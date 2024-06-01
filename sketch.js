@@ -173,7 +173,7 @@ function songs(){
   if (song.isPlaying()){
     song.pause();
     document.getElementById("PauseResume").innerHTML = 'Resume';
-  }else{
+  } else {
     song.loop();
     document.getElementById("PauseResume").innerHTML = 'Pause Music';
   }
