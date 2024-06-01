@@ -26,7 +26,7 @@ function setup() {
 
   canvasImg = createImage(width, height); //create images for keeping the images not replaced by others
   
-  for (let i = 0; i < 70; i++) {
+  for (let i = 0; i < 100; i++) {
     particle.push(new Particles());
   }
 
